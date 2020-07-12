@@ -12,10 +12,10 @@ public class Students {
 	int grade1, grade2, grade3;
 	
 	Students(String studentName, int gradeNum1, int gradeNum2, int gradeNum3) {
-		studentName = name;
-		gradeNum1 = grade1;
-		gradeNum2 = grade2;
-		gradeNum3 = grade3;
+		name = studentName;
+		grade1 = gradeNum1;
+		grade2 = gradeNum2;
+		grade3 = gradeNum3;
 	
 	}
 	
