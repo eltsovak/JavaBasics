@@ -21,7 +21,7 @@ public class USA {
 	}
 	
 	void displayInfo() {
-//		System.out.println("ststae is " + state);
+//		System.out.println("state is " + state);
 //		System.out.println("capital is " + capital);
 		displayState(); // this.displayState(); Compiler adds this to refer to instance variable
 		displayCapital();//this.displauyCapital(); Compiler adds this to refer to instance variable

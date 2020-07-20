@@ -13,7 +13,7 @@ public class Employee {
 	}
 	
 	public void displayName() {
-		System.out.println("Employee anme is " + name + " " + lastName);
+		System.out.println("Employee name is " + name + " " + lastName);
 	}
 	
 	protected void displayAge() {
