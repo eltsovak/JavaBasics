@@ -8,7 +8,7 @@ public class Bank {
 		this.money = money;
 	}
 	
-	double chargeFee() {
+	double chargeFee() { // overriden
 		if(money < 1000) {
 			return money * 0.1;
 		} else {
@@ -29,7 +29,8 @@ class PNC extends Bank{
 		super(money);
 	}
 	
-	double chargeFee() {
+	@Override
+	double chargeFee() { // overriding
 	if(money < 1000) {
 		return money * 0.2;
 	} else {
